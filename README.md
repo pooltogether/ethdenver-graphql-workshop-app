@@ -6,9 +6,11 @@ You can see the [workshop here on Github](https://github.com/pooltogether/ethden
 
 There is a branch for each completed step, so if you get lost you can easily checkout the branch you should be at.
 
-Branch `step-1`: Setup
-Branch `step-2`: Initialize Apollo Client and Tightbeam
-Branch `step-3`: Integrate ABIs
-Branch `step-4`: Display Token Supplies
-Branch `step-5`: Integration of Subgraph
+Branches:
+
+- `step-1`: Setup
+- `step-2`: Initialize Apollo Client and Tightbeam
+- `step-3`: Integrate ABIs
+- `step-4`: Display Token Supplies
+- `step-5`: Integration of Subgraph
 
