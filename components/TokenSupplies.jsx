@@ -13,7 +13,7 @@ const supplyQuery = gql`
 `
 
 export function TokenSupplies() {
-  const { loading, error, data } = useQuery(supplyQuery)
+  const { loading, error, data } = useQuery(supplyQuery, { pollInterval: 2000 })
 
   let result = 'Loading...'
   if (error) {
