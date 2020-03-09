@@ -6,8 +6,9 @@ import gql from 'graphql-tag'
 
 const prizesQuery = gql`
   query {
-    poolPrizes {
+    poolPrizes(orderBy: drawId, orderDirection: asc) {
       id
+      drawId
       depositCount
       depositAmount
       withdrawalCount
@@ -37,10 +38,10 @@ export function Prizes() {
               Withdrawal Count
             </td>
             <td>
-              Deposit Amount
+              Total Deposits
             </td>
             <td>
-              Withdrawal Amount
+              Total Withdrawals
             </td>
           </tr>
         </thead>
@@ -48,7 +49,7 @@ export function Prizes() {
           {data.poolPrizes.map(poolPrize => (
             <tr key={poolPrize.id.toString()}>
               <td>
-                {poolPrize.id.toString()}
+                {poolPrize.drawId.toString()}
               </td>
               <td>
                 {poolPrize.depositCount.toString()}

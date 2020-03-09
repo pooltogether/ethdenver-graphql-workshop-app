@@ -1,6 +1,6 @@
 # ETHDenver GraphQL Workshop App
 
-This is the complete source for the GraphQL workshop app.
+This is the complete source for the GraphQL workshop app.  Check out the [live version here](https://churn.pooltogether.com/).
 
 You can see the [workshop here on Github](https://github.com/pooltogether/ethdenver-graphql-workshop)
 
